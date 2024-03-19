@@ -1,0 +1,104 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.subtitle-font {
+    font-family: "Lexend", sans-serif;
+    color: #92a;
+}
+
+/* Settings do Cabeçalho */
+.navbar {
+    background-color: #92a;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #92a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+/* Settings do Carrossel */
+.carousel {
+    width: 100%; /* Define a largura do carrossel como 100% */
+}
+
+.carousel-inner {
+    width: 100%; /* Define a largura do conteúdo do carrossel como 100% */
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+
+/* Settings Section Sobre */
+.sobre,
+.produtos {
+    background-color: #e0bce5;
+}
+
+.provas,
+.contatos {
+    background-color: #ead2ee;
+}
+
+.img-provas {
+    height: 200px; /* Defina a altura desejada para o contêiner das imagens dos cards */
+    overflow: hidden; /* Oculta o excesso de imagem que ultrapassa a altura do contêiner */
+}
+
+.img-provas img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Settings Section Provas */
+.img-provas img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Settings Cards */
+.card {
+    background-color: #f4e8f6;
+}
+
+
+/* Settings Section Produtos */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Setting section Contatos */
+
+#botao-form-contato {
+    background-color: #92a;
+    color: #fff;
+    border: none;
+}
+
+.social-icons {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+}
+
+.social-icons-li {
+    display: inline-block;
+}
+
+.social-icons li a {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit; /* Mantém a cor padrão dos ícones */
+}
